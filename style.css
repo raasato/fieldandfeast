@@ -1,8 +1,29 @@
 /* CSS BY Robynne Asato */
 /* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 /* CSS REST */
 /* ROOT VARIABLES */
+:root {
+    --midnight-blue: #1f2a44;
+    --olive-green: #76885b;
+    --champagne-gold: #e5c185;
+    --linen: #f8f4ec;
+    --dark-charcoal: #2b2b2b;
+    --soft-white: #faf9f6;
+
+    --font: 'playfair-display';
+}
 /* GLOBAL STYLES (mobile first/small) */
 /* MEDIA QUERY (medium) */
+@media (min-width: 600px) {
+    
+}
 /* MEDIA QUERY (large) */
+@media (min-width: 900px) {
+
+}
 /* MEDIA QUERY (xl) */
+@media (min-width: 1200px) {
+    
+}
