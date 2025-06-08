@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* CSS REST */
+
 /* ROOT VARIABLES */
 :root {
     --midnight-blue: #1f2a44;
@@ -12,9 +13,112 @@
     --dark-charcoal: #2b2b2b;
     --soft-white: #faf9f6;
 
-    --font: 'playfair-display';
+    --font: 'Playfair Display';
 }
 /* GLOBAL STYLES (mobile first/small) */
+html {
+    font-family: var(--font);
+}
+
+header {
+    background-color: var(--midnight-blue);
+    color: var(--linen);
+    text-align: center;
+}
+
+nav {
+    background-color: var(--champagne-gold);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--dark-charcoal);
+}
+
+#offerings {
+    color: var(--soft-white);
+}
+
+h2 {
+    color: var(--dark-charcoal);
+}
+
+.provisions {
+    background-color: var(--olive-green);
+    border: var(--olive-green) 1px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.experiences {
+    background-color: var(--olive-green);
+    border: var(--olive-green) 1px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.monthly {
+    background-color: var(--olive-green);
+    border: var(--olive-green) 1px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.tomato {
+    text-align: center;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.oil {
+    text-align: center;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.table {
+    text-align: center;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.chef {
+    text-align: center;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.basket {
+    text-align: center;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+h4 {
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    text-align: center;
+}
+
+footer {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+}
+
+#tel {
+    color: var(--soft-white);
+}
+
+footer a {
+    color: var(--champagne-gold);
+    text-decoration: none;
+}
 /* MEDIA QUERY (medium) */
 @media (min-width: 600px) {
     
@@ -25,5 +129,5 @@
 }
 /* MEDIA QUERY (xl) */
 @media (min-width: 1200px) {
-    
+
 }
