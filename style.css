@@ -3,7 +3,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* CSS REST */
+h1 {
+    font-size: 4em;
+    margin-bottom: 0;
+}
 
+header p {
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+section {
+    padding: 1em;
+    border-bottom: solid var(--champagne-gold) 2px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0.25em 1em;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+h4 {
+    padding: 0.5em;
+    border: 1px var(--olive-green) solid;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 2em;
+}
+
+footer p {
+    margin: 0;
+}
 /* ROOT VARIABLES */
 :root {
     --midnight-blue: #1f2a44;
@@ -32,15 +70,26 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--dark-charcoal);
+    color: var(--midnight-blue);
 }
 
 #offerings {
     color: var(--soft-white);
 }
 
+#offerings p {
+    padding: 0 1em;
+}
+
+h3 {
+    padding-left: 1em;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
 h2 {
     color: var(--dark-charcoal);
+    font-size: 2em;
 }
 
 .provisions {
@@ -48,6 +97,7 @@ h2 {
     border: var(--olive-green) 1px solid;
     border-radius: 10px;
     box-shadow: 2px 2px 2px grey;
+    margin-top: 1em;
 }
 
 .experiences {
@@ -55,6 +105,7 @@ h2 {
     border: var(--olive-green) 1px solid;
     border-radius: 10px;
     box-shadow: 2px 2px 2px grey;
+    margin-top: 1em;
 }
 
 .monthly {
@@ -62,9 +113,19 @@ h2 {
     border: var(--olive-green) 1px solid;
     border-radius: 10px;
     box-shadow: 2px 2px 2px grey;
+    margin-top: 1em;
+}
+
+.monthly ul {
+    margin: 0;
+}
+
+.monthly p {
+    margin-top: 0;
 }
 
 .tomato {
+    display: block;
     text-align: center;
     border: 1px;
     border-radius: 10px;
