@@ -22,7 +22,7 @@ section {
     border-bottom: solid var(--champagne-gold) 2px;
 }
 
-nav a {
+nav li {
     display: inline-block;
     padding: 0.25em 1em;
     font-weight: bold;
@@ -82,7 +82,7 @@ nav a {
 }
 
 h3 {
-    padding-left: 1em;
+    padding-left: 15px;
     font-size: 2em;
     margin-bottom: 0;
 }
@@ -116,20 +116,13 @@ h2 {
     margin-top: 1em;
 }
 
-.monthly ul {
-    margin: 0;
-}
-
-.monthly p {
-    margin-top: 0;
-}
-
 .tomato {
     display: block;
     text-align: center;
     border: 1px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px grey;
+    font-style: italic;
 }
 
 .oil {
@@ -137,6 +130,7 @@ h2 {
     border: 1px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px grey;
+    font-style: italic;
 }
 
 .table {
@@ -144,6 +138,7 @@ h2 {
     border: 1px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px grey;
+    font-style: italic;
 }
 
 .chef {
@@ -151,6 +146,7 @@ h2 {
     border: 1px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px grey;
+    font-style: italic;
 }
 
 .basket {
@@ -158,6 +154,7 @@ h2 {
     border: 1px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px grey;
+    font-style: italic;
 }
 
 h4 {
@@ -182,13 +179,22 @@ footer a {
 }
 /* MEDIA QUERY (medium) */
 @media (min-width: 600px) {
-    
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 /* MEDIA QUERY (large) */
 @media (min-width: 900px) {
-
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 /* MEDIA QUERY (xl) */
 @media (min-width: 1200px) {
-
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
 }
