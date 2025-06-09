@@ -116,6 +116,11 @@ h2 {
     margin-top: 1em;
 }
 
+#gallery img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 .tomato {
     display: block;
     text-align: center;
@@ -123,6 +128,11 @@ h2 {
     border-radius: 10px;
     box-shadow: 2px 2px 2px grey;
     font-style: italic;
+}
+
+.tomato p {
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .oil {
@@ -133,12 +143,22 @@ h2 {
     font-style: italic;
 }
 
+.oil p {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 .table {
     text-align: center;
     border: 1px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px grey;
     font-style: italic;
+}
+
+.table p {
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .chef {
@@ -149,12 +169,22 @@ h2 {
     font-style: italic;
 }
 
+.chef p {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 .basket {
     text-align: center;
     border: 1px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px grey;
     font-style: italic;
+}
+
+.basket p {
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 h4 {
@@ -196,5 +226,62 @@ footer a {
     nav ul {
         display: flex;
         justify-content: space-around;
+    }
+
+    section {
+        padding-left: 17em;
+        padding-right: 17em;
+    }
+
+    #offerings {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.25fr 1fr 1fr;
+        gap: 1em;
+    }
+
+    #offerings h2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .monthly {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.25fr 0.25fr 1fr 0.25fr;
+        gap: 1em;
+    }
+
+    #gallery h2 {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+
+    #gallery p {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+
+    #gallery div {
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    h4 {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 6;
     }
 }
